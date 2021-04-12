@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+		<Description>MailKit を使用してメールを送信するサンプルです。</Description>
+		<Company>ソーサリーフォース (https://sorceryforce.net/)</Company>
+		<Authors>おのでら (ソーサリーフォース)</Authors>
+		<Copyright>Copyright (C) 2021 おのでら</Copyright>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.11.1" />
+  </ItemGroup>
+
+</Project>
